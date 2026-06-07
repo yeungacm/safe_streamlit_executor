@@ -4,9 +4,9 @@ Example Streamlit app using the safe_python_executor library.
 
 def main():
     import streamlit as st
-    from safe_python_executor import SafePythonExecutor
-    st.title("🔒 Safe Python Code Executor")
-    st.markdown("Using the `safe_python_executor` library")
+    from safe_streamlit_executor import SafePythonExecutor
+    st.title("🔒 Safe Streamlit Code Executor")
+    st.markdown("Using the `safe_streamlit_executor` library")
 
     # Initialize the executor
     executor = SafePythonExecutor()

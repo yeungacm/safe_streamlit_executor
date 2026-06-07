@@ -1,4 +1,4 @@
-# Safe Python Executor with Streamlit library
+# Safe Python Streamlit Executor with Streamlit library
 
 A reusable Python library for safely executing Streamlit-based Python code with RestrictedPython and AST security checks.
 
@@ -15,15 +15,15 @@ A reusable Python library for safely executing Streamlit-based Python code with 
 
 Or install from source:
 
-	bash git clone https://github.com/yeungacm/safe-python-executor.git 
-	cd safe-python-executor 
+	bash git clone https://github.com/yeungacm/safe_streamlit_executor.git 
+	cd safe_streamlit_executor 
 	pip install -e .
 
 ## Quick Start
 
 python
 
-	from safe_python_executor import SafePythonExecutor
+	from safe_streamlit_executor import SafePythonExecutor
 	#Create executor
 	executor = SafePythonExecutor()
 	#Execute code safely
@@ -44,8 +44,7 @@ python
 python
 
 	import streamlit as st
-	from safe_python_executor
-	import SafePythonExecutor
+	from safe_streamlit_executor import SafePythonExecutor
 	executor = SafePythonExecutor()
 	code = st.text_area("Enter Python code:")
 	if st.button("Execute"):
@@ -69,7 +68,7 @@ Remove modules from whitelist
 
 Create executor with custom module list
 
-	from safe_python_executor.utils import create_executor_with_custom_modules
+	from safe_streamlit_executor.utils import create_executor_with_custom_modules
 	executor = create_executor_with_custom_modules( additional_modules={'my_module'}, remove_modules={'PIL'} )
 
 ## Security Features
