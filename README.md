@@ -11,7 +11,7 @@ A reusable Python library for safely executing Streamlit-based Python code with 
 - 📦 **Reusable**: Can be used in any Python application, especially Streamlit apps
 
 ## Installation
-	bash pip install safe-python-executor
+	bash pip install safe_streamlit_executor
 
 Or install from source:
 
