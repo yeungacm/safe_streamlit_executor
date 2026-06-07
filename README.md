@@ -90,7 +90,7 @@ Usage Example:
 Any Streamlit program can now use this library like this:
 
 	import streamlit as st
-	from safe_python_executor import SafePythonExecutor
+	from safe_streamlit_executor import SafePythonExecutor
 
 # Create executor instance
 executor = SafePythonExecutor()
