@@ -1,5 +1,5 @@
 """
-Setup file for the safe_python_executor library.
+Setup file for the safe_streamlit_executor library.
 """
 
 from setuptools import setup, find_packages
@@ -8,14 +8,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="safe-python-executor",
+    name="safe_streamlit_executor",
     version="1.0.0",
     author="Yeung",
     author_email="yeung.acm@gmail.com",
     description="A reusable library for safely executing Streamlit-based Python code with RestrictedPython and AST security checks",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yeungacm/safe-python-executor",
+    url="https://github.com/yeungacm/safe_streamlit_executor",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
